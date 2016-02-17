@@ -68,3 +68,7 @@ PerfCondition=0,0
 PerfDisplayTime=0,0
 PerfOnlyOnce=0,0
 PerfUse64Bit=0
+[DebugChecksum]
+Checksum=-1343462266
+[CodeCoverage]
+Enabled=_ 0
