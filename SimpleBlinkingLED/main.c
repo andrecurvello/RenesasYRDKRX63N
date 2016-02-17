@@ -9,12 +9,12 @@ void main( void )
   
   *PDR  |= 0x08;        // Set bit 3 to 1 (Set LED5 as output)
   *PMR  &= ~(0x08);     // Set bit 3 to 0 (Set LED5 as general I/O)
-  *ODR0 &= ~(0x08);     // Set bit 3 to 0 (Set LED5 as push-pull output)
+  *ODR0 &= ~(0x40);     // Set bit 6 to 0 (Set LED5 as push-pull output)
   *DSCR &= ~(0x08);     // Set bit 3 to 0 (Set LED5 as "normal" drive capacity)
     
   for(;;)
   {
-    for (int i= 10000; i > 0; i--)
+    for (volatile int i= 10000; i > 0; i--)
     {
       // NOTE: The volatile keyword assures this empty loop won't optimize.
     }
