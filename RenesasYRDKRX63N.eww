@@ -4,6 +4,12 @@
   <project>
     <path>$WS_DIR$\HelloWorld\HelloWorld.ewp</path>
   </project>
+  <project>
+    <path>$WS_DIR$\HelloWorldLED\HelloWorldLED.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\SimpleBlinkingLED\SimpleBlinkingLED.ewp</path>
+  </project>
   <batchBuild/>
 </workspace>
 
