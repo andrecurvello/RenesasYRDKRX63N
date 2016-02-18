@@ -8,7 +8,7 @@
     <path>$WS_DIR$\SimpleBlinkingLED\SimpleBlinkingLED.ewp</path>
   </project>
   <project>
-    <path>$WS_DIR$\SimpleBlinkingLED_Simpler\SimpleBlinkingLED_Simpler.ewp</path>
+    <path>$WS_DIR$\SimplerBlinkingLED\SimplerBlinkingLED.ewp</path>
   </project>
   <batchBuild/>
 </workspace>
