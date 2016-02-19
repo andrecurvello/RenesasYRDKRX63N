@@ -11,7 +11,7 @@ void main( void )
   *PMR  &= ~(0x08);     // Set bit 3 to 0 (Set LED5 as general I/O)
   *ODR0 &= ~(0x40);     // Set bit 6 to 0 (Set LED5 as push-pull output)
   *DSCR &= ~(0x08);     // Set bit 3 to 0 (Set LED5 as "normal" drive capacity)
-    
+   
   for(;;)
   {
     for (volatile int i= 10000; i > 0; i--)

@@ -10,6 +10,9 @@
   <project>
     <path>$WS_DIR$\SimplerBlinkingLED\SimplerBlinkingLED.ewp</path>
   </project>
+  <project>
+    <path>$WS_DIR$\SwitchControlledLED\SwitchControlledLED.ewp</path>
+  </project>
   <batchBuild/>
 </workspace>
 
