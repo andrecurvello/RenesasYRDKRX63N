@@ -8,3 +8,9 @@ http://mtrtech.wikia.com/wiki/Getting_Started_with_YRDKRX63N_Demonstration_Kit
 
 A wiki explaining how the "SimpleBlinkingLED project was written is here:
 http://mtrtech.wikia.com/wiki/Very_Simple_LED_Program
+
+Projects:
+HelloWorld - Empty main function, just intended to setup project settings (chip and debugger selection for YRDKRX63N)
+SimpleBlinkingLED - Implements blinking LED using direct register settings
+SimplerBlinkingLED - Same as SimpleBlinkingLED, but uses iorx63n.h register structures 
+SwitchControlledLED - Uses SW1 to control LED5
